@@ -1,0 +1,16 @@
+# Bỏ qua 
+languages/
+uploads/
+upgrade/
+cache/
+.github/
+themes/*
+README.md
+index.php
+
+# Giữ lại
+!themes/conifer-theme/
+!themes/conifer-theme/**
+
+!plugins/
+!plugins/**

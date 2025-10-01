@@ -1,0 +1,197 @@
+/* Conifer Features Plugin - Admin Styles */
+
+.conifer-features-info {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #3498db;
+}
+
+.feature-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.feature-item p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.feature-item .button {
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.feature-item .button:hover {
+    background: #2980b9;
+    color: white;
+}
+
+.feature-item code {
+    background: #f1f1f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+    color: #e74c3c;
+}
+
+/* Slider and Gallery Meta Boxes */
+#slider-images-container,
+#gallery-images-container {
+    margin-top: 10px;
+}
+
+#slider-images-list,
+#gallery-images-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.slider-image-item,
+.gallery-image-item {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background: white;
+}
+
+.slider-image-item img,
+.gallery-image-item img {
+    display: block;
+    border-radius: 3px;
+}
+
+.remove-slider-image,
+.remove-gallery-image {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.remove-slider-image:hover,
+.remove-gallery-image:hover {
+    background: #c0392b;
+}
+
+/* Settings Page */
+.conifer_features_settings {
+    max-width: 800px;
+}
+
+.conifer_features_settings .form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+}
+
+.conifer_features_settings .form-table td {
+    padding: 20px 10px;
+}
+
+.conifer_features_settings .description {
+    font-style: italic;
+    color: #666;
+}
+
+/* Contact Submissions Table */
+.wp-list-table .column-name {
+    width: 15%;
+}
+
+.wp-list-table .column-email {
+    width: 20%;
+}
+
+.wp-list-table .column-phone {
+    width: 15%;
+}
+
+.wp-list-table .column-subject {
+    width: 20%;
+}
+
+.wp-list-table .column-message {
+    width: 25%;
+}
+
+.wp-list-table .column-date {
+    width: 10%;
+}
+
+.wp-list-table .column-actions {
+    width: 10%;
+}
+
+/* Ratings Table */
+.wp-list-table .column-post {
+    width: 30%;
+}
+
+.wp-list-table .column-user {
+    width: 20%;
+}
+
+.wp-list-table .column-rating {
+    width: 25%;
+}
+
+.wp-list-table .column-date {
+    width: 25%;
+}
+
+.star.filled {
+    color: #f39c12;
+}
+
+/* Responsive Admin */
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .conifer_features_settings .form-table th,
+    .conifer_features_settings .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .wp-list-table {
+        font-size: 12px;
+    }
+    
+    .wp-list-table .column-message {
+        display: none;
+    }
+}
