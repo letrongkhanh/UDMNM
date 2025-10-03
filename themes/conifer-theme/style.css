@@ -1,7 +1,15 @@
 /*
-Theme Name: Conifer
-Description: A modern WordPress theme for plant and garden stores. Features custom post types, ACF support, and responsive design.
-Version: 1.0.0
+Theme Name: Conifer Theme
+Theme URI: https://example.com/conifer-theme-2
 Author: Your Name
-Text Domain: conifer
+Author URI: https://example.com
+Description: Converted from static HTML to a WordPress theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: conifer-theme
 */
+
+/* This file intentionally left minimal. Main styles are in styles.css and enqueued via functions.php */
+
+
